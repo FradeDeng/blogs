@@ -120,6 +120,8 @@ If you choose to use Log4j2, follow these steps:
 
 By following these steps, you can configure and use either Logback or Log4j2 in your Spring Boot application based on your specific needs. Both logging frameworks are powerful and capable, so the choice largely depends on your particular requirements and preferences.
 
+***
+
 在 Spring Boot 项目中，默认的日志框架是 Logback。Logback 是由 Log4j 的作者设计的，它作为 Log4j 的后继者，具有更好的性能和更丰富的特性。然而，Log4j2 也是一个非常流行和强大的日志框架。如果你有特定需求，可以选择使用 Log4j2。
 
 以下是 Logback 和 Log4j2 的一些优缺点对比，帮助你做出选择：
@@ -241,7 +243,5 @@ By following these steps, you can configure and use either Logback or Log4j2 in 
         </Loggers>
     </Configuration>
     ```
-
-*****
 
 通过以上步骤，你可以根据需求在 Spring Boot 中选择并配置 Logback 或 Log4j2。无论选择哪种日志框架，都可以满足大多数应用的日志记录需求。
